@@ -11,6 +11,12 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [eventBusIndex: 'com.github.cyc.eventbus.subscriberindexdemo.MyEventBusIndex']
+            }
+        }
     }
 
     buildTypes {
@@ -30,4 +36,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    compile 'org.greenrobot:eventbus:3.1.1'
+    annotationProcessor 'org.greenrobot:eventbus-annotation-processor:3.1.1'
 }
