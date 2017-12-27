@@ -1,1 +1,1 @@
-include ':app', ':basicusedemo'
+include ':app', ':basicusedemo', ':threadmodedemo'
