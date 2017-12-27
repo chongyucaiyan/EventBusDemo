@@ -4,19 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context="com.github.cyc.eventbus.threadmodedemo.MainActivity">
+    tools:context="com.github.cyc.eventbus.threadmodedemo.SecondActivity">
 
     <Button
-        android:id="@+id/btn_main_start_activity"
+        android:id="@+id/btn_second_post_event"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:text="@string/start_second_activity" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="20sp"
-        android:text="Hello World!" />
+        android:text="@string/post_event" />
 </FrameLayout>
