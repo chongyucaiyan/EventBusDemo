@@ -1,1 +1,1 @@
-include ':app', ':basicusedemo', ':threadmodedemo'
+include ':app', ':basicusedemo', ':threadmodedemo', ':stickyeventdemo'
