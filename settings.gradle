@@ -1,1 +1,1 @@
-include ':app', ':basicusedemo', ':threadmodedemo', ':stickyeventdemo', ':eventprioritydemo'
+include ':app', ':basicusedemo', ':threadmodedemo', ':stickyeventdemo', ':eventprioritydemo', ':subscriberindexdemo'
